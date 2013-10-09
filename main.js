@@ -37,7 +37,7 @@ $(function() {
 	//greetOneAnother.apply(person2, personList)
 
 	clickButtons.call($('.btn-primary'));
-	$('button').on('click', clickButton);
+	$('button').on('click', clickButtons);
 
 
 })
