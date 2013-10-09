@@ -17,7 +17,8 @@ Get familiar with the call and apply methods available in Javascript.
 
 1.  Copy the following code into a new Javascript file. Create an html file that includes
 script so you can run it in the browser.
-
+    
+    ```
     var person1 = {firstName: 'Marvin', age: 42, color: 'green'};
     var person2 = {firstName: 'Zaphod', age: 42000000000, color: 'peachpuff'};
     var person3 = {firstName: 'Gollum', age: 589, color: 'green'};
@@ -28,6 +29,7 @@ script so you can run it in the browser.
     var greetOneAnother = function(a, b) {
      alert("{0}, meet {1} and {2}".supplant([this.firstName, a.firstName, b.firstName]);
     };
+    ```
 
 2.  Include [supplant](https://github.com/RefactorU/student-sample-code/blob/master/supplant.js).
 3.  Call sayHello using the normal style of calling functions. What's wrong with this output?
